@@ -16,9 +16,9 @@ Install my-project with npm
 https://react-sharies-app.onrender.com/
 ## Usage
 
-```javascript
+
 A Simple Threads Clone App 
-```
+
 
 
 ## Run Locally
