@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import daisyui from 'daisyui';
+import preline from 'preline/plugin';
 
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}', 'node_modules/preline/dist/*.js'],
@@ -10,7 +12,7 @@ export default {
       },
     },
   },
-  plugins: [require('daisyui'), require('preline/plugin')],
+  plugins: [daisyui],
   daisyui: {
     themes: ['dark', 'garden'],
   },

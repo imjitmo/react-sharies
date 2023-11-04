@@ -5,6 +5,8 @@ import dotenv from 'dotenv';
 import express from 'express';
 import connectDB from './db/connectDB.js';
 
+import path from 'path';
+
 //Route imports
 import postRoutes from './routes/post.Routes.js';
 import userRoutes from './routes/user.Routes.js';
