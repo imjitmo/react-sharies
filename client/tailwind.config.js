@@ -12,7 +12,7 @@ export default {
       },
     },
   },
-  plugins: [daisyui],
+  plugins: [daisyui, preline],
   daisyui: {
     themes: ['dark', 'garden'],
   },
